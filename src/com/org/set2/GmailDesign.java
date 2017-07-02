@@ -15,6 +15,8 @@ Node(int x)
 
 }
 
+
+
 class DLL{
 	
 	HashMap<Integer,Node> hunread=new HashMap<Integer,Node>();
