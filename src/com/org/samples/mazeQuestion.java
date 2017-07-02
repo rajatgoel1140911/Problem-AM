@@ -20,6 +20,8 @@ public static void main(String[] args) {
 	obj.nextLine();
 	char mat[][]=new char[n+1][m+1];
 	
+	
+	
 	for(int i=1;i<=n;i++)
 	{
 		String s=obj.nextLine();
@@ -49,10 +51,7 @@ public static void main(String[] args) {
 	System.out.println(min+"\n"+path);
 	
 	else
-		System.out.println(-1);
-	
-	
-	
+		System.out.println("-1");
 }
 
 static void backtrack(int e,int d,int i,int j,int n,int m,int energy[][],String s,char mat[][])
